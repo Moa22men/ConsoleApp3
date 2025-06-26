@@ -73,6 +73,15 @@ namespace ConsoleApp3
                 Console.Write(i + ",");
             }
             #endregion
+
+            #region Q7
+            Console.Write("Enter a number: ");
+            int Num5 = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.Write(Num5 * i + " ");
+            }
+            #endregion
         }
     }
 }
