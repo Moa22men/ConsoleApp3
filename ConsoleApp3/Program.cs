@@ -91,6 +91,15 @@ namespace ConsoleApp3
                 Console.Write(i + " ");
             }
             #endregion
+
+            #region Q9
+            Console.Write("Enter the first number: ");
+            int FNum = int.Parse(Console.ReadLine());
+            Console.Write("Enter the power number: ");
+            int PNum = int.Parse(Console.ReadLine());
+            double result = Math.Pow(FNum, PNum);
+            Console.WriteLine("Result = " + result);
+            #endregion
         }
     }
 }
