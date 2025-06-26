@@ -167,6 +167,23 @@ namespace ConsoleApp3
             }
             Console.WriteLine("Sum = " + sum);
             #endregion
+
+            #region Q15
+            int[] array2 = { 10, 3, 7, 4, 9 };
+            int max1 = array2[0];
+            int min1 = array2[0];
+            foreach (int Num7 in array2)
+            {
+                if (Num7 > max) {  
+                    max1 = Num7; 
+                } 
+                if (Num7 < min) {
+                    min1 = Num7;
+                }
+            }
+            Console.WriteLine("Max = " + max);
+            Console.WriteLine("Min = " + min);
+            #endregion
         }
     }
 }
