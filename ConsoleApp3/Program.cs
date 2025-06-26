@@ -14,7 +14,15 @@ namespace ConsoleApp3
             else
                 Console.WriteLine("No");
             #endregion
-            
+
+            #region Q2
+            Console.Write("Enter an number: ");
+            int Num2 = int.Parse(Console.ReadLine());
+            if (Num2 > 0)
+                Console.WriteLine("positive");
+            else
+                Console.WriteLine("negative");
+            #endregion
         }
     }
 }
