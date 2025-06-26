@@ -23,6 +23,27 @@ namespace ConsoleApp3
             else
                 Console.WriteLine("negative");
             #endregion
+
+            #region Q3
+            Console.WriteLine("Enter three numbers: ");
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
+            int max = x;
+            int min = x;
+
+            if (y > max)
+                max = y;
+            if (z > max)
+                max = z;
+
+            if (y < min)
+                min = y;
+            if (z < min)
+                min = z;
+            Console.WriteLine("max element = " + max);
+            Console.WriteLine("min element = " + min);
+            #endregion
         }
     }
 }
