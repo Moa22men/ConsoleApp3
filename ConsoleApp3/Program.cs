@@ -145,6 +145,18 @@ namespace ConsoleApp3
             }
             Console.WriteLine("Days in Month: " + days);
             #endregion
+
+            #region Q12
+            Console.Write("Enter matrix size: ");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                   Console.WriteLine("*");
+                }
+            }
+            #endregion
         }
     }
 }
