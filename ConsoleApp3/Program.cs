@@ -100,6 +100,20 @@ namespace ConsoleApp3
             double result = Math.Pow(FNum, PNum);
             Console.WriteLine("Result = " + result);
             #endregion
+
+            #region Q10
+            Console.WriteLine("Enter marks of five subjects:");
+            int total = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                total += int.Parse(Console.ReadLine());
+            }
+            double average = total / 5.0;
+            double percentage = average;
+            Console.WriteLine("Total Marks = " + total);
+            Console.WriteLine("Average Marks = " + average);
+            Console.WriteLine("Percentage = " + percentage);
+            #endregion
         }
     }
 }
