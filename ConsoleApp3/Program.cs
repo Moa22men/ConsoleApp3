@@ -63,6 +63,16 @@ namespace ConsoleApp3
             else
                 Console.WriteLine("Consonant");
             #endregion
+
+            #region Q6
+            Console.Write("Enter a number: ");
+            int Num4 = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= Num4; i++)
+            {
+                Console.Write(i + ",");
+            }
+            #endregion
         }
     }
 }
