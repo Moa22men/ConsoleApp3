@@ -184,6 +184,25 @@ namespace ConsoleApp3
             Console.WriteLine("Max = " + max);
             Console.WriteLine("Min = " + min);
             #endregion
+
+            #region Q16
+            int[] array3 = { 5, 7, 3, 0, 4 };
+            int first = array3[0];
+            int second = array3[0];
+            for (int i = 1; i < array3.Length; i++)
+            {
+                if (array3[i] > first)
+                {
+                    second = first;
+                    first = array3[i];
+                }
+                else if (array3[i] > second)
+                {
+                    second = array3[i];
+                }
+            }
+            Console.WriteLine("Second largest = " + second);
+            #endregion
         }
     }
 }
