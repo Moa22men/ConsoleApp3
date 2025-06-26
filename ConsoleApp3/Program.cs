@@ -44,6 +44,16 @@ namespace ConsoleApp3
             Console.WriteLine("max element = " + max);
             Console.WriteLine("min element = " + min);
             #endregion
+
+            #region Q4
+            Console.Write("Enter a number: ");
+            int Num3 = int.Parse(Console.ReadLine());
+
+            if (Num3 % 2 == 0)
+                Console.WriteLine("Even");
+            else
+                Console.WriteLine("Odd");
+            #endregion
         }
     }
 }
