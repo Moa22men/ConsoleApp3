@@ -157,6 +157,16 @@ namespace ConsoleApp3
                 }
             }
             #endregion
+
+            #region Q13
+            int[] array = { 75, 22, 14, 66, 82 };
+            int sum = 0;
+            foreach (int m in array)
+            {
+                sum += x;
+            }
+            Console.WriteLine("Sum = " + sum);
+            #endregion
         }
     }
 }
