@@ -54,6 +54,15 @@ namespace ConsoleApp3
             else
                 Console.WriteLine("Odd");
             #endregion
+
+            #region Q5
+            Console.Write("Enter a character: ");
+            char letter = char.Parse(Console.ReadLine().ToLower());
+            if ("aeiou".Contains(letter))
+                Console.WriteLine("Vowel");
+            else
+                Console.WriteLine("Consonant");
+            #endregion
         }
     }
 }
